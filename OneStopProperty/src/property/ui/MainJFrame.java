@@ -51,7 +51,7 @@ import ui.signUpLandingPage.TenantWorkAreaJPanel;
 
 /**
  *
- * @author sruth
+ * @author uday
  */
 public class MainJFrame extends javax.swing.JFrame {
     private RealEstateNetwork ecosystem;
