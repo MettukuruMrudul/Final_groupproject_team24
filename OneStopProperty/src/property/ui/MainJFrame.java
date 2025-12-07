@@ -446,7 +446,6 @@ private void saveUserAuthenticationToFile() {
         btnLogout = new javax.swing.JButton();
         userProcessContainer = new javax.swing.JPanel();
         lblTitle = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -544,7 +543,7 @@ private void saveUserAuthenticationToFile() {
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28)
                 .addComponent(btnLogout)
-                .addContainerGap(209, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jSplitPane2.setLeftComponent(loginWorkArea);
@@ -560,10 +559,6 @@ private void saveUserAuthenticationToFile() {
         lblTitle.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         userProcessContainer.add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 28, 481, -1));
 
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Backgrounds/10_Basic_Aspects_of_Outstanding_Property_Management.jpg"))); // NOI18N
-        userProcessContainer.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 111, -1, -1));
-
         jSplitPane2.setRightComponent(userProcessContainer);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -574,7 +569,7 @@ private void saveUserAuthenticationToFile() {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jSplitPane2)
+            .addComponent(jSplitPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 486, Short.MAX_VALUE)
         );
 
         pack();
@@ -804,7 +799,6 @@ private void saveUserAuthenticationToFile() {
     private javax.swing.JButton btnLogin;
     private javax.swing.JButton btnLogout;
     private javax.swing.JButton btnSign;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSplitPane jSplitPane2;
