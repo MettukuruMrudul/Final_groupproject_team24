@@ -42,7 +42,7 @@ import property.MainJFrame;
 
 /**
  *
- * @author sruth
+ * @author uday
  */
 public class SignUpJPanel extends javax.swing.JPanel {
     private JPanel userProcessContainer;
