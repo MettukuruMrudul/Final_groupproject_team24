@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author sruth
+ * @author uday
  */
 public class Enterprise implements Serializable {
     // Add a serialVersionUID to maintain compatibility between versions

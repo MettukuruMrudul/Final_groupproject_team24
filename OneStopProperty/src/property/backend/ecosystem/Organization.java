@@ -13,7 +13,7 @@ import property.backend.workqueue.WorkQueue;
 
 /**
  *
- * @author sruth
+ * @author uday
  */
 public abstract class Organization implements Serializable {
    private String name;

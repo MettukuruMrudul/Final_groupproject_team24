@@ -26,7 +26,7 @@ import property.backend.ecosystem.RealEstateNetwork;
 
 /**
  *
- * @author sruth
+ * @author uday
  */
 public class UserAuthentication implements Serializable {
     // Add a serialVersionUID to maintain compatibility between versions

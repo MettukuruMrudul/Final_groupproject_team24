@@ -10,7 +10,7 @@ import property.backend.ecosystem.Enterprise;
 
 /**
  *
- * @author sruth
+ * @author uday
  */
 public class RealEstateNetwork implements Serializable {
     // Add a serialVersionUID to maintain compatibility between versions
