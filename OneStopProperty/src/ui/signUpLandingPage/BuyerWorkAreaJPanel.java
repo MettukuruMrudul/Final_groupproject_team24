@@ -33,7 +33,7 @@ import property.ui.buyer.PropertyJPanel;
 
 /**
  *
- * @author krishi
+ * @author krishi parekh
  */
 public class BuyerWorkAreaJPanel extends javax.swing.JPanel {
     private RealEstateNetwork ecosystem;
