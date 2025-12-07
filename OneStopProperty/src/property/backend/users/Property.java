@@ -10,7 +10,7 @@ import java.util.Date;
 import property.backend.users.UserAccount;
 
 /**
- * Represents a property in the property management system
+ *
  * @author krishi parekh
  */
 public class Property implements Serializable {
