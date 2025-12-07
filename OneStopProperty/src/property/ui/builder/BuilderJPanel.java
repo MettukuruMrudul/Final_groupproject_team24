@@ -25,7 +25,7 @@ import ui.signUpLandingPage.BuyerWorkAreaJPanel;
 
 /**
  *
- * @author sruth
+ * @author meghana
  */
 public class BuilderJPanel extends javax.swing.JPanel {
 

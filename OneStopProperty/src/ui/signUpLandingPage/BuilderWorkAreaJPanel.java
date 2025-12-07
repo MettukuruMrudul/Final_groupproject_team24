@@ -20,7 +20,7 @@ import property.backend.users.UserAuthentication;
 
 /**
  *
- * @author sruth
+ * @author meghana
  */
 public class BuilderWorkAreaJPanel extends javax.swing.JPanel {
 

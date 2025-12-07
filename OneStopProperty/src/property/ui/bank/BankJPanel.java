@@ -26,7 +26,7 @@ import ui.signUpLandingPage.BuyerWorkAreaJPanel;
 
 /**
  *
- * @author sruth
+ * @author meghana
  */
 public class BankJPanel extends javax.swing.JPanel {
     private RealEstateNetwork ecosystem;

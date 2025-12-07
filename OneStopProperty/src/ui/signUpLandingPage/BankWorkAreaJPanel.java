@@ -24,7 +24,7 @@ import property.ui.bank.BankJPanel;
 
 /**
  *
- * @author sruth
+ * @author meghana
  */
 public class BankWorkAreaJPanel extends javax.swing.JPanel {
      private RealEstateNetwork ecosystem;
