@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 /**
  *
- * @author sruth
+ * @author uday
  */
 public class OrganizationAdmin extends Role implements Serializable {
     // Add a serialVersionUID to maintain compatibility between versions
