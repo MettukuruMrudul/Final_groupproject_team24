@@ -20,7 +20,7 @@ import property.backend.workqueue.WorkRequest;
 
 /**
  *
- * @author sruth
+ * @author krishi parekh
  */
 public class LandlordWorkAreaJPanel extends javax.swing.JPanel {
     private RealEstateNetwork ecosystem;
