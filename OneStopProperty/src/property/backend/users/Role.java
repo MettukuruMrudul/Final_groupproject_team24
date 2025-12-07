@@ -9,7 +9,7 @@ import property.backend.workqueue.WorkQueue;
 
 /**
  *
- * @author sruth
+ * @author uday
  */
 public abstract class Role implements Serializable {
      private static final long serialVersionUID = 1L;

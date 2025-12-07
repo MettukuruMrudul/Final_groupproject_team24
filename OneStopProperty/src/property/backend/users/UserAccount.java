@@ -9,7 +9,7 @@ import property.backend.ecosystem.Organization;
 
 /**
  *
- * @author sruth
+ * @author uday
  */
 public class UserAccount implements Serializable {
   
