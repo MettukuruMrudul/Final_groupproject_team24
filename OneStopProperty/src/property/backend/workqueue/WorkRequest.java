@@ -11,7 +11,7 @@ import static property.backend.workqueue.WorkRequest.RequestStatus.PENDING;
 
 /**
  *
- * @author sruth
+ * @author nihar
  */
 public abstract class WorkRequest implements Serializable {
     
