@@ -11,7 +11,7 @@ import property.backend.workqueue.WorkRequest;
 
 /**
  *
- * @author sruth
+ * @author nihar
  */
 public class MaintainceRequest extends WorkRequest implements Serializable {
     // Add a serialVersionUID to maintain compatibility between versions
