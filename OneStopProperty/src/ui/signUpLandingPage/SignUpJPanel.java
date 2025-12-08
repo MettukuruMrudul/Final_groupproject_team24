@@ -38,7 +38,7 @@ import property.backend.users.Role;
 import property.backend.users.Tenant;
 import property.backend.users.UserAccount;
 import property.backend.users.UserAuthentication;
-import property.MainJFrame;
+import property.ui.MainJFrame;
 
 /**
  *
