@@ -11,7 +11,7 @@ import property.backend.users.Builder;
 
 /**
  *
- * @author Meghana
+ * @author meghana
  */
 public class BuilderOrganization extends Organization implements Serializable {
     // Add a serialVersionUID to maintain compatibility between versions

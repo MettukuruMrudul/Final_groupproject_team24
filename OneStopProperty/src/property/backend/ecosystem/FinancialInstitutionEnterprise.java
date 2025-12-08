@@ -9,7 +9,7 @@ import property.backend.ecosystem.Enterprise;
 
 /**
  *
- * @author Meghana
+ * @author meghana
  */
 public class FinancialInstitutionEnterprise extends Enterprise implements Serializable {
     // Add a serialVersionUID to maintain compatibility between versions

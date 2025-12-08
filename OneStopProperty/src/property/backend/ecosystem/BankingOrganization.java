@@ -11,7 +11,7 @@ import property.backend.users.Bank;
 
 /**
  *
- * @author Meghana
+ * @author meghana
  */
 public class BankingOrganization extends Organization implements Serializable {
     // Add a serialVersionUID to maintain compatibility between versions
