@@ -32,7 +32,7 @@ import property.backend.users.UserAccount;
 
 /**
  *
- * @author sruth
+ * @author uday
  */
 public class AdminWorkAreaJPanel extends javax.swing.JPanel {
     private RealEstateNetwork ecosystem;
