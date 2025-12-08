@@ -440,7 +440,7 @@ private void saveUserAuthenticationToFile() {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        loginWorkArea.setBackground(new java.awt.Color(0, 153, 153));
+        loginWorkArea.setBackground(new java.awt.Color(153, 153, 255));
         loginWorkArea.setMaximumSize(new java.awt.Dimension(250, 250));
         loginWorkArea.setMinimumSize(new java.awt.Dimension(250, 250));
         loginWorkArea.setPreferredSize(new java.awt.Dimension(250, 250));
@@ -542,9 +542,8 @@ private void saveUserAuthenticationToFile() {
         userProcessContainer.setBackground(new java.awt.Color(181, 218, 255));
         userProcessContainer.setLayout(new java.awt.CardLayout());
 
-        lblTitle.setBackground(new java.awt.Color(181, 218, 255));
+        lblTitle.setBackground(new java.awt.Color(255, 153, 204));
         lblTitle.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        lblTitle.setForeground(new java.awt.Color(0, 153, 153));
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitle.setText("Property Management System");
         lblTitle.setVerticalAlignment(javax.swing.SwingConstants.TOP);
@@ -556,7 +555,7 @@ private void saveUserAuthenticationToFile() {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jSplitPane2)
+            .addComponent(jSplitPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 714, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

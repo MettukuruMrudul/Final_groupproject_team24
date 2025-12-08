@@ -8,13 +8,13 @@ import java.io.Serializable;
 
 /**
  *
- * @author nihar
+ * @author uday
  */
-public class MaintainceWorker extends Role implements Serializable {
+public class Tenant extends Role implements Serializable {
     // Add a serialVersionUID to maintain compatibility between versions
     private static final long serialVersionUID = 1L;
-    public MaintainceWorker() {
-        super(RoleType.MAINTAINCE_WORKER);
+    public Tenant() {
+        super(RoleType.TENANT);
     }
     
 }

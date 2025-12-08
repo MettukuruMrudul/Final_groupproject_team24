@@ -221,7 +221,7 @@ public void populateMaintAdmins() {
 
         setBackground(new java.awt.Color(181, 218, 255));
 
-        lblTitle.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
+        lblTitle.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         lblTitle.setText("Register For Maintaince");
 
         lblTenant.setText("Tenant Name");
@@ -265,10 +265,8 @@ public void populateMaintAdmins() {
                 .addContainerGap(350, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblTitle)
-                            .addComponent(btnRepair))
-                        .addGap(433, 433, 433))
+                        .addComponent(btnRepair)
+                        .addGap(519, 519, 519))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(lblTPhone, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -290,13 +288,17 @@ public void populateMaintAdmins() {
                                     .addComponent(txtPhone, javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(txtHouse, javax.swing.GroupLayout.Alignment.TRAILING))))
                         .addGap(264, 264, 264))))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(503, 503, 503)
+                .addComponent(lblTitle)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(23, 23, 23)
+                .addGap(28, 28, 28)
                 .addComponent(lblTitle)
-                .addGap(73, 73, 73)
+                .addGap(68, 68, 68)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(txtTenant, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblTenant))

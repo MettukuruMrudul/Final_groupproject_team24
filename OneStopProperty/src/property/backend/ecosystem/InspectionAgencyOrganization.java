@@ -11,7 +11,7 @@ import property.backend.users.HousingInspector;
 
 /**
  *
- * @author sruth
+ * @author nihar
  */
 public class InspectionAgencyOrganization extends Organization implements Serializable {
     // Add a serialVersionUID to maintain compatibility between versions
