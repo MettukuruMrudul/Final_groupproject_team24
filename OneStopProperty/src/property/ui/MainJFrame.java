@@ -8,25 +8,16 @@ import java.awt.BorderLayout;
 import java.awt.CardLayout;
 import java.awt.Color;
 import java.awt.Component;
-import java.awt.Font;
-import java.awt.GradientPaint;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.LayoutManager;
-import java.awt.RenderingHints;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.util.ArrayList;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
 import property.backend.ecosystem.Enterprise;
 import property.backend.ecosystem.MaintainceCompanyOrganization;
 import property.backend.ecosystem.MaintainceServiceEnterprise;
@@ -549,7 +540,7 @@ private void saveUserAuthenticationToFile() {
         jSplitPane2.setLeftComponent(loginWorkArea);
 
         userProcessContainer.setBackground(new java.awt.Color(181, 218, 255));
-        userProcessContainer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        userProcessContainer.setLayout(new java.awt.CardLayout());
 
         lblTitle.setBackground(new java.awt.Color(181, 218, 255));
         lblTitle.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -557,7 +548,7 @@ private void saveUserAuthenticationToFile() {
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitle.setText("Property Management System");
         lblTitle.setVerticalAlignment(javax.swing.SwingConstants.TOP);
-        userProcessContainer.add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 28, 481, -1));
+        userProcessContainer.add(lblTitle, "card2");
 
         jSplitPane2.setRightComponent(userProcessContainer);
 
